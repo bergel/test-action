@@ -4,6 +4,6 @@ touch $name
 
 git remote -v
 
-#git add $name
-#git commit
-#git push
+git add $name
+git commit
+git push
