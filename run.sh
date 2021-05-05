@@ -2,8 +2,5 @@ name=$(date '+%Y-%m-%d-%H-%M-%S')
 echo "Creating " $name
 touch $name
 
-git remote -v
+echo "Hello World" > myfile.md
 
-git add $name
-git commit
-git push
